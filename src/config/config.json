@@ -5,9 +5,9 @@
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/icons/logo.svg",
-    "logo_width": "147",
-    "logo_height": "31",
+    "logo": "/images/logo-transparent.png",
+    "logo_width": "197",
+    "logo_height": "52",
     "logo_text": "Pinwheel"
   },
 
@@ -22,11 +22,11 @@
   },
 
   "call_to_action": {
-    "title": "Helping teams in the world with focus",
-    "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "title": "Less setup. More building.",
+    "description": "Start from a working server, admin console and client templates, then spend your time on the product instead of the infrastructure.",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/astro-themes/pinwheel-astro"
+      "label": "Get started on GitHub",
+      "link": "https://github.com/authboot"
     }
   },
 
