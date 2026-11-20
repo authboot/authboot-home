@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小度澜川隐私政策</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.8;
+            padding: 0 20px;
+            background-color: #f9f9f9;
+            color: #000;
+            margin: 0 auto 50px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: normal;
+            margin: 6px 0;
+        }
+
+        span {
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+            text-underline-offset: 3px;
+        }
+
+        .weight500 {
+            font-weight: 500;
+        }
+
+        .address {
+            border-left: 4px solid #c8c9cc;
+            padding-left: 10px;
+            color: #9ea0a3;
+        }
+
+        ol.olDefault {
+            counter-reset: c1;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ol.olDefault ol {
+            counter-reset: c2;
+            list-style: none;
+            padding-left: 20px;
+        }
+
+        ol.olDefault>li {
+            counter-increment: c1;
+            position: relative;
+            padding-left: 40px;
+            font-weight: 500;
+            font-size: 22px;
+            margin: 16px 0;
+        }
+
+        ol.olDefault ol>li {
+            counter-increment: c2;
+            position: relative;
+            padding-left: 10px;
+            font-weight: 500;
+            font-size: 18px;
+            margin: 16px 0;
+        }
+
+        ol.olDefault ol>li.li14 {
+            padding-left: 0px;
+
+        }
+
+        .olDefault ol li {
+            padding-left: 0;
+        }
+
+        ol.olDefault ol ol {
+            counter-reset: c3;
+            padding-left: 20px;
+        }
+
+        /* 三级 li */
+        ol.olDefault ol ol>li {
+            counter-increment: c3;
+            position: relative;
+            padding-left: 28px;
+            font-size: 16px;
+            font-weight: 500;
+            margin: 12px 0;
+        }
+
+        /* 序号 */
+        ol.olDefault>li::before {
+            content: counter(c1, cjk-ideographic) "、 ";
+            position: absolute;
+            left: 0;
+            font-weight: 700;
+        }
+
+        ol.olDefault ol>li::before {
+            content: counters(c2, ".") ". ";
+            position: absolute;
+            left: 0;
+            font-weight: 600;
+            text-align: right;
+        }
+
+        ol.olDefault ol>li.li14::before {
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        /* (1) 序号 */
+        ol.olDefault ol ol>li::before {
+            content: "(" counter(c3) ") ";
+            position: absolute;
+            left: 0;
+            font-weight: 600;
+        }
+
+        ol.olDefault>li::before {
+            font-weight: 700;
+        }
+
+        /* 二级及以后恢复正常 */
+        ol.olDefault ol li::before {
+            left: -20px;
+        }
+
+        .olDefault ul {
+            list-style: disc;
+            font-weight: 400;
+            padding-left: 20px;
+            counter-reset: none;
+        }
+
+        .olDefault ul li {
+            padding-left: 2px;
+            font-size: 14px;
+        }
+
+        .olDefault ul li::before {
+            content: none !important;
+        }
+        a {
+            overflow-wrap: anywhere;
+            word-break: break-all;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>小度澜川隐私政策</h1>
+    <p>发布/更新日期：2026 年4 月 10 日</p>
+    <p>生效日期：2026 年4 月 12日</p>
+    <br>
+    <p>欢迎您使用小度澜川应用程序及相关服务。</p>
+    <p>小度澜川是由上海小度人工智能有限公司（以下简称“我们”）提供的智能硬件管理与视频服务应用，主要为您提供 IPC 设备绑定与管理、实时预览、录像回放、消息通知、语音对讲、云存储/增值服务、设备分享及售后支持等功能。</p>
+    <p>我们深知个人信息对您的重要性，并将按照合法、正当、必要、诚信原则，依据相关法律法规要求，采取相应安全保护措施，保护您的个人信息安全。请您在使用小度澜川及相关服务前，仔细阅读并充分理解本《小度澜川隐私政策》（以下简称“本政策”），尤其是以加粗方式提示的重要条款。
+    </p>
+    <p>如您不同意本政策的内容，您应停止访问或使用小度澜川及相关服务。您点击同意、注册、登录、使用或继续使用小度澜川，即表示您已理解并同意本政策。</p>
+    <ol class="olDefault">
+        <li>
+            <strong>适用范围</strong>
+            <p>本政策适用于我们通过小度澜川 App、相关小程序、网页端及与该等服务相关的其他应用形态向您提供的产品与服务。</p>
+            <p>如某项具体服务另有单独的隐私说明、用户协议或服务规则，则该具体服务的隐私说明优先适用；该说明未载明之处，以本政策为准。</p>
+        </li>
+        <li>
+            <strong>我们如何收集和使用您的个人信息</strong>
+            <p>我们仅会为实现您所选择使用的功能和服务之目的，收集、使用必要的个人信息。若您拒绝提供某项功能所必需的信息，您可能无法使用对应功能，但不影响您使用其他不依赖该等信息的功能。</p>
+            <ol>
+                <li>
+                    <strong>账号注册、登录与身份验证</strong>
+                    <p>当您注册、登录小度澜川账号时，我们可能收集以下信息：</p>
+                    <ul>
+                        <li>手机号码；</li>
+                        <li>登录密码；</li>
+                        <li>短信验证码；</li>
+                        <li>登录状态信息、账号标识信息。</li>
+                    </ul>
+                    <p>在您选择补充账号资料时，我们还可能收集您的昵称、头像、邮箱地址、地区等信息。上述补充信息主要用于完善账号资料、提升服务体验、加强账号安全，您可自主决定是否提供。</p>
+                    <p>如您使用指纹、面容 ID 等快捷登录方式，我们仅接收操作系统返回的验证结果，不会收集、存储您的指纹或面部生物识别模板。</p>
+                </li>
+                <li>
+                    <strong>设备添加、绑定、配网与管理</strong>
+                    <p>当您添加、绑定、配置或管理 IPC 设备时，我们可能收集以下信息：</p>
+                    <ul>
+                        <li>设备序列号、设备验证码、设备型号、设备名称；</li>
+                        <li>设备激活状态、固件版本、网络接入状态；</li>
+                        <li>您用于配网的 Wi-Fi 信息，包括 Wi-Fi 名称（SSID）、BSSID、信号强度、连接方式；</li>
+                        <li>您主动输入的 Wi-Fi 密码；</li>
+                        <li>蓝牙连接场景下的蓝牙设备标识信息；</li>
+                        <li>App 版本、操作系统版本、设备型号、客户端类型等必要终端信息；</li>
+                        <li>与设备绑定、配网、升级、故障诊断相关的操作日志。</li>
+                    </ul>
+                    <p>为便于搜索附近 Wi-Fi、发现设备或完成蓝牙配网，在部分 Android
+                        设备上，系统可能要求您授权位置权限。该权限主要用于系统能力调用；除实现相关功能所必需外，我们不会因该等配网目的而额外记录您的精确地理位置。</p>
+                </li>
+                <li>
+                    <strong>实时预览、录像回放、抓拍、下载与存储</strong>
+                    <p>当您使用实时预览、录像回放、抓拍、视频下载、本地保存、云端查看等功能时，我们可能处理：</p>
+                    <ul>
+                        <li>设备上传的音视频流数据；</li>
+                        <li>您主动触发抓拍、录屏、下载、回放等操作产生的内容；</li>
+                        <li>对应内容的时间、设备标识、事件类型、操作记录；</li>
+                        <li>您选择保存到本地相册或上传到云端的图片、视频内容。</li>
+                    </ul>
+                    <p class="weight500">请您知悉，IPC
+                        设备采集的图像、视频、音频内容，可能包含您本人、家庭成员、访客或其他第三方的面部、声音、行为轨迹等信息，其中部分信息可能构成敏感个人信息。我们仅在实现安防、看护、回放、存储、分享等功能所必要的范围内进行处理，并采取严格的安全保护措施。
+                    </p>
+                </li>
+                <li>
+                    <strong>事件检测、消息通知与智能看护功能</strong>
+                    <p>当您开启移动侦测、人形识别、宠物识别、异常声音识别、区域看护、事件提醒、AI 智能看护等功能时，我们可能收集或处理：</p>
+                    <ul>
+                        <li>事件截图、短视频片段或音频片段；</li>
+                        <li>事件时间、事件类型、设备标识、消息状态；</li>
+                        <li>您设置的看护规则、通知偏好、告警开关；</li>
+                        <li>为实现相关算法能力所必要的视频画面、图片帧、音频片段及识别结果。</li>
+                    </ul>
+                    <p class="weight500">
+                        如相关功能涉及对图像、声音等敏感个人信息的处理，我们会通过弹窗、页面提示、功能说明或其他适当方式，向您进行单独告知，并在法律法规要求的情形下征得您的单独同意。</p>
+                </li>
+                <li>
+                    <strong>语音对讲、双向通话及语音相关功能</strong>
+                    <p>当您使用语音对讲、双向通话、语音留言或其他语音类功能时，我们需要调用您的麦克风权限，并处理：</p>
+                    <ul>
+                        <li>您主动输入或录制的语音内容；</li>
+                        <li>通话建立、持续时间、连接状态等必要记录；</li>
+                        <li>为保证音视频质量所需的网络状态、设备型号、系统版本等信息。</li>
+                    </ul>
+                    <p>若您拒绝授权麦克风权限，您将无法使用语音对讲、语音留言等相关功能，但不影响其他功能的正常使用。</p>
+                </li>
+                <li>
+                    <strong>相册读取、图片/视频保存与上传</strong>
+                    <p>当您需要从相册选择图片、将抓拍或录像内容保存至本地、上传反馈截图或视频时，我们可能申请访问您的相册/存储权限，并处理您主动选择的图片、视频内容。</p>
+                    <p>该权限仅在您主动使用相关功能时调用；若您拒绝授权，不影响您使用不依赖该权限的其他功能。</p>
+                </li>
+                <li>
+                    <strong>消息推送与服务提醒</strong>
+                    <p>为便于您及时了解设备状态、告警事件、服务到期、系统更新、订单状态等信息，我们可能向您发送应用内消息、系统通知或短信提醒，并处理：</p>
+                    <ul>
+                        <li>设备标识、消息类型、消息送达状态；</li>
+                        <li>终端设备信息、系统版本、推送标识；</li>
+                        <li>您的通知设置状态。</li>
+                    </ul>
+                    <p>您可以通过 App 设置页面或终端设备系统设置关闭消息通知。关闭后，您可能无法及时接收事件提醒、服务提醒等通知。</p>
+                </li>
+                <li>
+                    <strong>设备分享、家庭成员协作与内容分享</strong>
+                    <p>当您使用设备分享、家庭成员协同管理、录像分享、图片/视频转发等功能时，我们可能处理：</p>
+                    <ul>
+                        <li>您主动填写或选择的分享对象信息，如手机号、昵称、账号标识；</li>
+                        <li>被分享设备的基础信息、分享关系、授权范围；</li>
+                        <li>您主动分享的图片、视频、消息或链接内容。</li>
+                    </ul>
+                    <p>请您谨慎使用分享功能。您理解并知悉，一旦您主动向第三方分享相关内容，该等内容可能在您指定的范围内被查看、保存或再次转发。</p>
+                </li>
+                <li>
+                    <strong>购买、支付、云存储及其他增值服务</strong>
+                    <p>如您在小度澜川内购买云存储、会员服务、延保服务或其他增值服务，我们可能收集：</p>
+                    <ul>
+                        <li>订单信息、商品信息、交易状态；</li>
+                        <li>支付时间、支付金额、支付渠道、订单编号；</li>
+                        <li>发票信息、收货信息（如涉及实物）；</li>
+                        <li>服务开通状态、服务有效期、续费状态。</li>
+                    </ul>
+                    <p>支付过程通常由第三方支付机构完成。我们不会直接收集您的完整支付账户密码、银行卡密码等信息，但可能接收支付结果信息以确认交易状态并向您提供服务</p>
+                </li>
+                <li>
+                    <strong>客服、售后、投诉建议与故障排查</strong>
+                    <p>当您联系客服、提交投诉建议、申请售后或进行故障排查时，我们可能收集：</p>
+                    <ul>
+                        <li>您主动提交的联系方式、问题描述、设备信息；</li>
+                        <li>您上传的截图、图片、视频、录音等材料；</li>
+                        <li>与问题处理相关的订单信息、服务记录、沟通记录；</li>
+                        <li>为定位故障所必要的日志信息。</li>
+                    </ul>
+                    <p>如您拒绝提供与问题处理相关的必要信息，我们可能无法准确识别问题或向您提供相应支持。</p>
+                </li>
+                <li>
+                    <strong>运营安全与服务保障</strong>
+                    <p>为维护服务的安全稳定运行、预防和查处违法违规行为，我们可能收集：</p>
+                    <ul>
+                        <li>设备型号、操作系统版本、网络状态、IP 地址、App 版本；</li>
+                        <li>崩溃日志、运行日志、操作日志、异常诊断信息；</li>
+                        <li>风险控制所必要的账号行为信息。</li>
+                    </ul>
+                    <p>上述信息将用于故障排查、性能优化、网络安全防护、服务稳定性保障和风险识别。</p>
+                </li>
+                <li>
+                    <strong>征得授权同意的例外</strong>
+                    <p>在以下情形中，我们处理您的个人信息可能无需征得您的授权同意：</p>
+                    <ul>
+                        <li>为订立、履行您作为一方当事人的合同所必需；</li>
+                        <li>为履行法定义务所必需；</li>
+                        <li>为应对突发公共卫生事件，或紧急情况下为保护自然人的生命健康和财产安全所必需；</li>
+                        <li>为公共利益实施新闻报道、舆论监督等行为，在合理范围内处理个人信息；</li>
+                        <li>依照法律规定在合理范围内处理您自行公开或其他已经合法公开的个人信息；</li>
+                        <li>法律、行政法规规定的其他情形。</li>
+                    </ul>
+                </li>
+
+            </ol>
+        </li>
+        <li>
+            <strong>我们如何调用设备权限</strong>
+            <p>为实现具体功能，小度澜川可能申请以下系统权限：</p>
+            <ol>
+                <li class="li14">
+                    <p><strong>位置权限</strong>：用于搜索附近 Wi-Fi、发现蓝牙设备、完成配网等功能。</p>
+                </li>
+                <li class="li14">
+                    <p><strong>蓝牙权限</strong>：用于发现设备、蓝牙配网、近场连接等功能。</p>
+                </li>
+                <li class="li14">
+                    <p><strong>麦克风权限</strong>：用于语音对讲、双向通话、语音留言等功能。</p>
+                </li>
+                <li class="li14">
+                    <p><strong>相机权限</strong>：用于扫码添加设备、拍照上传反馈材料等功能。</p>
+                </li>
+                <li class="li14">
+                    <p><strong>相册/存储权限</strong>：用于读取您主动选择的图片/视频，或保存抓拍、录像到本地。</p>
+                </li>
+                <li class="li14">
+                    <p><strong>通知权限</strong>：用于向您发送设备告警、服务提醒、系统通知等消息。</p>
+                </li>
+                <li class="li14">
+                    <p><strong>通讯录权限（如适用）</strong>：仅在您主动使用联系人邀请、快捷分享等功能时申请。</p>
+                </li>
+                <p>您可以在 App 内或设备系统设置中开启、关闭相应权限。关闭权限不会影响其他无关功能的使用，但可能导致对应功能无法正常实现。</p>
+
+            </ol>
+        </li>
+        <li>
+            <strong>我们如何使用 Cookie 和同类技术</strong>
+            <p>在网站、H5 页面或相关服务中，我们可能使用 Cookie、网页信标、本地存储等同类技术，以实现登录状态保持、安全验证、页面展示优化、服务体验提升等目的。</p>
+            <p>您可以通过浏览器或终端设备设置管理或清除相关数据，但这样做可能影响部分服务功能的正常使用。</p>
+        </li>
+        <li>
+            <strong>我们如何委托处理、共享、转让、公开披露您的个人信息</strong>
+            <ol>
+                <li>
+                    <strong>委托处理</strong>
+                    <p>为向您提供服务，我们可能委托经过严格审核的合作伙伴在约定范围内处理您的个人信息，例如云服务供应商、短信服务商、客服服务商、物流及售后服务商、支付服务商、消息推送服务商、设备连接服务商等。</p>
+                    <p>我们会与受托方签署相应协议，并要求其按照我们的指示、依据本政策和相关法律法规要求处理您的个人信息。</p>
+                </li>
+                <li>
+                    <strong>共享</strong>
+                    <p>在以下情形下，我们可能共享您的个人信息：</p>
+                    <ul>
+                        <li>经您事先授权同意；</li>
+                        <li>为实现您主动选择的功能所必需，例如支付、消息推送、设备分享、售后支持；</li>
+                        <li>在法定情形下与行政机关、司法机关或其他有权机关共享；</li>
+                        <li>与关联公司共享必要信息，以提供一致的产品或服务体验，但我们仅会共享必要的信息，并受本政策所声明目的约束。</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>转让</strong>
+                    <p>原则上，我们不会将您的个人信息转让给任何公司、组织或个人。若因合并、分立、解散、被宣告破产等原因需要转让个人信息的，我们将依法向您告知接收方名称或姓名和联系方式，并要求接收方继续履行个人信息保护义务。
+                    </p>
+                </li>
+                <li>
+                    <strong>公开披露</strong>
+                    <p>除非取得您的单独同意或法律法规另有规定，我们不会公开披露您的个人信息。</p>
+                </li>
+                <li>
+                    <strong>第三方 SDK 或服务</strong>
+                    <p>为实现登录授权、扫码添加设备、实时音视频通话、实时消息、语音合成、应用市场动态能力等功能，我们可能接入第三方 SDK 或第三方服务。我们已在全国
+                        <a href="https://sdk.caict.ac.cn/official/#/home">SDK
+                            管理服务平台</a> 依法登记相关 SDK 信息，并在下方向您完整公示。
+                    </p>
+                    <p>我们会与第三方签署相应协议，要求其按照本政策和适用法律法规要求处理您的个人信息。第三方 SDK 收集和处理个人信息的具体规则，请您查阅相应第三方公示的隐私政策。</p>
+                    <ol>
+                        <li>
+                            <strong style="font-weight: 600;">Dynamic Ability SDK</strong>
+                            <ul>
+                                <li>SDK 名称：Dynamic Ability SDK</li>
+                                <li>包名：com.huawei.hms.feature</li>
+                                <li>开发者：华为软件技术有限公司</li>
+                                <li>使用目的：华为应用市场动态能力调用，用于在华为终端设备上为您提供应用安装、更新、运行等相关支持。</li>
+                                <li>隐私政策链接：<a
+                                        href="https://developer.huawei.com/consumer/cn/doc/AppGallery-connect-Guides/agc-dynamicability-sdksecurity-0000001058890662">https://developer.huawei.com/consumer/cn/doc/AppGallery-connect-Guides/agc-dynamicability-sdksecurity-0000001058890662</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong style="font-weight: 600;">华为统一扫码 SDK（Android 版）</strong>
+                            <ul>
+                                <li>SDK 名称：华为统一扫码 SDK（Android 版）</li>
+                                <li>包名：com.huawei.hms.scankit</li>
+                                <li>开发者：华为软件技术有限公司</li>
+                                <li>使用目的：用于扫码添加设备、扫码登录等场景，识别二维码或条码内容。</li>
+                                <li>隐私政策链接：<a
+                                        href="https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/sdk-data-security-0000001050043971">https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/sdk-data-security-0000001050043971</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong style="font-weight: 600;">在线语音合成 SDK（Android）</strong>
+                            <ul>
+                                <li>SDK 名称：在线语音合成 SDK（Android）</li>
+                                <li>包名：com.baidu.tts</li>
+                                <li>开发者：北京百度网讯科技有限公司</li>
+                                <li>使用目的：用于将文本内容合成为语音播报，例如告警提示、消息播报等语音输出场景。</li>
+                                <li>隐私政策链接：<a
+                                        href="https://ai.baidu.com/ai-doc/REFERENCE/Jkdyl0v3v">https://ai.baidu.com/ai-doc/REFERENCE/Jkdyl0v3v</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong style="font-weight: 600;">实时消息 SDK</strong>
+                            <ul>
+                                <li>SDK 名称：实时消息 SDK</li>
+                                <li>包名：io.agora.rtm</li>
+                                <li>开发者：上海声网科技有限公司</li>
+                                <li>使用目的：用于 App 与 IPC 设备之间的实时信令传输与消息通信，支持设备控制指令下发、状态同步等功能。</li>
+                                <li>隐私政策链接：<a
+                                        href="https://www.shengwang.cn/SDK-privacy-policy/">https://www.shengwang.cn/SDK-privacy-policy/</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong style="font-weight: 600;">百度 OAuth SDK</strong>
+                            <ul>
+                                <li>SDK 名称：百度 OAuth SDK</li>
+                                <li>包名：com.baidu.oauth.sdk</li>
+                                <li>开发者：北京百度网讯科技有限公司</li>
+                                <li>使用目的：用于实现百度账号 OAuth 授权登录，便于您使用百度账号体系登录小度澜川。</li>
+                                <li>隐私政策链接：<a
+                                        href="https://openauth.baidu.com/doc/agreement.html">https://openauth.baidu.com/doc/agreement.html</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong style="font-weight: 600;">视频 SDK</strong>
+                            <ul>
+                                <li>SDK 名称：视频 SDK</li>
+                                <li>包名：io.agora.rtc2.video</li>
+                                <li>开发者：上海声网科技有限公司</li>
+                                <li>使用目的：用于实现 IPC 设备实时视频预览、双向视频通话、录像回放等实时音视频能力。</li>
+                                <li>隐私政策链接：<a
+                                        href="https://www.shengwang.cn/SDK-privacy-policy/">https://www.shengwang.cn/SDK-privacy-policy/</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong style="font-weight: 600;">音频 SDK</strong>
+                            <ul>
+                                <li>SDK 名称：音频 SDK</li>
+                                <li>包名：io.agora.rtc2.audio</li>
+                                <li>开发者：上海声网科技有限公司</li>
+                                <li>使用目的：用于实现语音对讲、双向通话等实时音频通信能力。</li>
+                                <li>隐私政策链接：<a
+                                        href="https://www.shengwang.cn/SDK-privacy-policy/">https://www.shengwang.cn/SDK-privacy-policy/</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <p>我们会持续关注上述第三方 SDK 的合规情况，如第三方 SDK 信息发生变更（包括新增、停用或更新），我们将通过更新本政策或单独公告的方式向您说明。</p>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <strong>我们如何保护和保存您的个人信息</strong>
+            <p>我们采取符合行业标准的安全技术和管理措施保护您的个人信息，包括但不限于：</p>
+            <ul>
+                <li>数据加密传输与存储；</li>
+                <li>访问控制、权限隔离、最小必要授权；</li>
+                <li>脱敏、去标识化等处理措施；</li>
+                <li>安全审计、监测预警与应急响应机制；</li>
+                <li>员工培训及权限管理制度。</li>
+            </ul>
+            <p>我们原则上在中华人民共和国境内收集和产生的个人信息存储于中华人民共和国境内。若因业务需要确需向境外提供个人信息的，我们将依法履行相应义务，并向您告知相关情况。</p>
+            <p>我们仅在实现本政策所述目的所必需的期限内保存您的个人信息；超出保存期限后，我们会依法删除或匿名化处理，但法律法规另有规定或监管机关另有要求的除外。</p>
+            <p>如不幸发生个人信息安全事件，我们将依据法律法规要求及时告知您事件基本情况、可能影响、已采取或将采取的处置措施、您可采取的防范和减轻风险的建议等，并依法向有关主管部门报告。</p>
+        </li>
+        <li>
+            <strong>您的权利</strong>
+            <p>按照相关法律法规，您对您的个人信息享有以下权利：</p>
+            <ol>
+                <li>
+                    <strong>查阅、复制、更正和补充</strong>
+                    <p>您有权查阅、复制您的账号信息、设备信息、订单信息及其他个人信息；如发现信息有误，您有权要求更正、补充。</p>
+                </li>
+                <li>
+                    <strong>删除</strong>
+                    <p>在符合法律法规规定的情形下，您有权要求删除您的个人信息。</p>
+                </li>
+                <li>
+                    <strong>撤回同意</strong>
+                    <p>对于基于您的同意处理的个人信息，您有权撤回同意。撤回同意后，不影响撤回前基于您的同意已开展的处理活动的合法性。</p>
+                </li>
+                <li>
+                    <strong>注销账号</strong>
+                    <p>您可以通过 App 内提供的路径申请注销账号。账号注销后，我们将依法删除或匿名化处理您的相关个人信息，但法律法规另有规定的除外。</p>
+                </li>
+                <li>
+                    <strong>获取个人信息副本</strong>
+                    <p>在符合法律法规规定的条件下，您有权获取您的个人信息副本。</p>
+                </li>
+                <li>
+                    <strong>解释说明</strong>
+                    <p>您有权要求我们对个人信息处理规则进行解释说明。</p>
+                </li>
+                <li>
+                    <strong>响应您的请求</strong>
+                    <p>您可以通过本政策载明的联系方式联系我们，行使上述权利。为保障安全，我们可能需要验证您的身份。我们将在法律法规规定的期限内回复您的请求。</p>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <strong>我们如何处理未成年人的个人信息</strong>
+            <p>小度澜川原则上主要面向成年人提供服务。若您为未成年人，应在监护人同意并指导下使用我们的产品和服务。</p>
+            <p>如我们发现未经监护人同意收集了未成年人的个人信息，我们将尽快删除相关信息。若您作为监护人认为我们处理了未成年人的个人信息，请通过本政策载明的方式与我们联系。</p>
+        </li>
+        <li>
+            <strong>关于您通过设备采集他人信息的说明</strong>
+            <p>请您理解，IPC
+                设备可能采集到家庭成员、访客、保姆、物业人员或其他第三方的图像、视频、音频等信息。您应当确保在使用相关设备及功能时，已依法履行必要的告知义务，并确保您的使用行为符合适用法律法规要求，不得非法收集、使用、传播他人个人信息，不得侵犯他人隐私权、肖像权等合法权益。
+            </p>
+        </li>
+        <li>
+            <strong>本政策如何更新</strong>
+            <p>我们可能根据产品功能、法律法规要求、业务模式变化等情况适时更新本政策。未经您明确同意，我们不会削减您依据本政策所享有的合法权利。</p>
+            <p>若本政策发生重大变更，我们会通过弹窗、站内消息、推送通知或其他合理方式向您告知。更新后的政策一经公布或自载明的生效日期起生效。</p>
+        </li>
+        <li style="padding-left: 60px;">
+            <strong>如何联系我们</strong>
+            <p>如果您对小度澜川及本隐私政策有任何意见或建议，您可以通过小度澜川产品【设置】-【意见反馈】或发送邮件至 <strong
+                    style="color: #3f83f8;">duer-bd@baidu.com</strong> 联系我们。</p>
+            <p>您还可通过个人信息保护问题反馈平台（**<a
+                    href="https://help.baidu.com/personalinformation">https://help.baidu.com/personalinformation</a>**）联系我们。
+            </p>
+            <p>您还可以通过如下联络方式同我们联系：</p>
+            <div class="address">
+                <p>中国北京市海淀区上地十街 10 号</p>
+                <p>北京百度网讯科技有限公司 法务部</p>
+                <p>邮政编码：100085</p>
+            </div>
+            <p>为保障我们高效处理您的问题并及时向您反馈，需要您提交身份证明、有效联系方式和书面请求及相关证据，我们会在验证您的身份后处理您的请求。一般情况下，我们将在 30 天内回复。</p>
+            <p>如果您对我们的回复不满意，特别是您认为我们的个人信息处理行为损害了您的合法权益，您还可以通过以下外部途径寻求解决方案：向北京市海淀区人民法院提起诉讼。</p>
+        </li>
+    </ol>
+</body>
+
+</html>

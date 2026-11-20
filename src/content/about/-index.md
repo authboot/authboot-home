@@ -66,24 +66,9 @@ members:
   title: This is who we are
   description: Donec sollicitudin molestie malesda. Donec sollitudin mol estie ultricies ligula sed magna dictum
   member_list:
-    - name: Eleanor Pena
+    - name: PENG CHEN
       field: Co-founder & COO
       image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
-      image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
-      image: "/images/users/user-3.png"
-    - name: Eleanor Pena
-      field: Co-founder & COO
-      image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
-      image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
-      image: "/images/users/user-3.png"
 ---
 
 Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Lorem

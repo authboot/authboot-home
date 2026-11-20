@@ -1,14 +1,14 @@
 {
   "site": {
     "title": "AuthBoot",
-    "base_url": "https://pinwheel-astro.vercel.app",
+    "base_url": "https://authboot.com",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo-transparent.png",
     "logo_width": "197",
     "logo_height": "52",
-    "logo_text": "Pinwheel"
+    "logo_text": "authboot"
   },
 
   "settings": {
@@ -32,11 +32,11 @@
 
   "params": {
     "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
-    "phone": "+704-555-0127",
+    "email": "info@authboot.com",
+    "location": "Remote-first · Distributed worldwide",
+    "phone": "",
     "contact_form_action": "#",
-    "copyright": "Copyright © 2025 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "Copyright © 2026 [AuthBoot](https://github.com/authboot). All rights reserved."
   },
 
   "metadata": {

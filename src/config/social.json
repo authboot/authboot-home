@@ -1,6 +1,13 @@
 {
   "main": [
     {
+      "name": "github",
+      "icon": "FiGithub",
+      "link": "https://www.github.com/authboot"
+    }
+  ],
+  "_disabled": [
+    {
       "name": "facebook",
       "icon": "FiFacebook",
       "link": "https://www.facebook.com/"
@@ -9,11 +16,6 @@
       "name": "Instagram",
       "icon": "FiInstagram",
       "link": "https://www.instagram.com/"
-    },
-    {
-      "name": "github",
-      "icon": "FiGithub",
-      "link": "https://www.github.com/"
     },
     {
       "name": "linkedin",
